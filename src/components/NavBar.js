@@ -2,10 +2,10 @@ import React from 'react';
 
 function NavBar() {
   return (
-    <nav className="nav">
+    <nav className="header-nav">
       <ul>
         <li>
-          <a href="none">Home</a>
+          <a href="none" className="active">Home</a>
         </li>
         <li>
           <a href="none">Fotos</a>

@@ -15,7 +15,7 @@ function Main() {
   ];
 
   return (
-    <main>
+    <main className="gallery">
       { titles.map((title, key) => (
         <Card
           title={ title }

@@ -4,7 +4,8 @@ import SocialMedia from './SocialMedia';
 
 function Header() {
   return (
-    <header>
+    <header className="header">
+      <a href="none" className="header-brand">Gallery</a>
       <NavBar />
       <SocialMedia />
     </header>
