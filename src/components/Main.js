@@ -1,6 +1,8 @@
 import React from 'react';
 import Card from './Card';
 
+import '../sass/Main.css';
+
 function Main() {
   const titles = [
     'Animais',
@@ -15,11 +17,12 @@ function Main() {
   ];
 
   return (
-    <main>
+    <main className="gallery">
       { titles.map((title, key) => (
         <Card
           title={ title }
-          key={ key }
+          index={ key }
+          key={ title }
         />
       ))}
     </main>
