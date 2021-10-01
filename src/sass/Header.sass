@@ -1,0 +1,53 @@
+@import 'mixins'
+@import 'variables'
+
+.header
+   display: flex
+   justify-content: space-between
+   @include container
+
+   @include mobile
+      padding: 1.1rem
+
+   &-brand
+      color: $primary-color
+      font-size: 3rem
+
+   &-nav
+      ul
+         height: 100%
+         @include flex-center
+
+         @include mobile
+            display: none
+
+   
+         li
+            margin: 0 1rem
+            font-size: .8rem
+
+            .active
+               color: $secondary-color
+
+            a
+               &:hover
+                  color: $secondary-color
+                  transition: .4s
+   
+   &-social-media
+      ul
+         height: 100%
+         @include flex-center
+
+         @include mobile
+            display: none
+
+
+         li
+            margin: 0 1rem
+            
+            a
+               &:hover
+                  color: $secondary-color
+                  transition: .4s
+

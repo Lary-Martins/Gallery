@@ -1,8 +1,10 @@
 import React from 'react';
 
+import '../sass/Header.css';
+
 function SocialMedia() {
   return (
-    <div className="social-media">
+    <div className="header-social-media">
       <ul>
         <li>
           <a href="none">

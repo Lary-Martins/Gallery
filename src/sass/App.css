@@ -1,2 +1,19 @@
+* {
+  font-family: 'Josefin Sans';
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
 
-/*# sourceMappingURL=styles.css.map */
+a {
+  color: #777;
+}
+
+body {
+  background-color: #000;
+  color: #777;
+}
+/*# sourceMappingURL=App.css.map */

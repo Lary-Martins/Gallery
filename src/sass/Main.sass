@@ -1,0 +1,67 @@
+@import 'mixins'
+@import 'variables'
+
+.gallery
+   @include flex-center
+   @include container
+   flex-wrap: wrap
+   justify-content: space-between
+   padding: 0
+
+   @include mobile
+      flex-direction: column
+
+   &-card
+      @include flex-center
+      flex-direction: column
+      color: $primary-color
+      width: 31%
+      height: 480px
+      margin-bottom: 4%
+
+      @include mobile
+         width: 90%
+         margin-bottom: 6%
+
+      &-title
+         font-size: 2rem
+         font-weight: 300
+         margin-bottom: 1rem
+
+      &-btn
+         padding: .6rem 2rem
+         border: 2px solid $primary-color
+         color: $primary-color
+         font-weight: 400     
+         letter-spacing: 1px
+
+         &:hover
+            background-color: $primary-color
+            color: $bg-color
+            transition: .4s
+   
+   #card-0
+      @include bg-img('animais.jpg')
+   #card-1
+      @include bg-img('arquitetura.jpg')
+   #card-2
+      @include bg-img('cidade.jpg')
+   #card-3
+      @include bg-img('decoracao.jpg')
+   #card-4
+      @include bg-img('esportes.jpg')
+   #card-5
+      @include bg-img('natureza.jpg')
+   #card-6
+      @include bg-img('paisagem.jpg')
+   #card-7
+      @include bg-img('pessoas.jpg')
+   #card-8
+      @include bg-img('refeicoes.jpg')
+
+
+
+
+
+
+
