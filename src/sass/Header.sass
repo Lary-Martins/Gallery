@@ -6,6 +6,9 @@
    justify-content: space-between
    @include container
 
+   @include mobile
+      padding: 1.1rem
+
    &-brand
       color: $primary-color
       font-size: 3rem
@@ -14,6 +17,10 @@
       ul
          height: 100%
          @include flex-center
+
+         @include mobile
+            display: none
+
    
          li
             margin: 0 1rem
@@ -31,6 +38,10 @@
       ul
          height: 100%
          @include flex-center
+
+         @include mobile
+            display: none
+
 
          li
             margin: 0 1rem

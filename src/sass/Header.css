@@ -10,6 +10,12 @@
   margin: 0 auto;
 }
 
+@media (max-width: 425px) {
+  .header {
+    padding: 1.1rem;
+  }
+}
+
 .header-brand {
   color: #fff;
   font-size: 3rem;
@@ -26,6 +32,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 425px) {
+  .header-nav ul {
+    display: none;
+  }
 }
 
 .header-nav ul li {
@@ -54,6 +66,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 425px) {
+  .header-social-media ul {
+    display: none;
+  }
 }
 
 .header-social-media ul li {

@@ -21,7 +21,8 @@ function Main() {
       { titles.map((title, key) => (
         <Card
           title={ title }
-          key={ key }
+          index={ key }
+          key={ title }
         />
       ))}
     </main>
