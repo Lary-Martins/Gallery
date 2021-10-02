@@ -3,7 +3,7 @@
 <h1>
     <a href="https://gallery-lary-martins.vercel.app/">🔗Gallery</a>
 </h1>
-<p>Uma simples e bela landing page para uma galeria de fotos</p>
+<p>Uma simples e bela landing page responsiva para uma galeria de fotos</p>
 </div>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 <h2 id="sobre">Sobre</h2>
 <p>
-Nesse projeto foi desenvolvido uma landing page sem nenhuma funcionalidade espefífica, utilizou-se componentes funcionais React apenas para uma melhor organização do projeto. Para visualizar melhor a aplicação, basta acessar o link atrelado ao nome do projeto logo acima, você será redirecionado para o site e verá o projeto em produção.
+Nesse projeto foi desenvolvido uma landing page responsiva sem nenhuma funcionalidade espefífica, utilizou-se componentes funcionais React apenas para uma melhor organização do projeto. Para visualizar melhor a aplicação, basta acessar o link atrelado ao nome do projeto logo acima, você será redirecionado para o site e verá o projeto em produção.
 <br/ >
 <br/ >
 Meus principais objetivos foram:
