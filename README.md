@@ -59,7 +59,7 @@ npm start || yarn start
 ```
 </p>
 
-<h2>Autora</h2>
+<h2 id="me">Autora</h2>
 <p>Laryssa Martins</p>
 <p>Saiba mais sobre mim acessando meu <a href="https://www.linkedin.com/in/laryssa-martins-11196b20a">linkedin</a>!</p>
 
