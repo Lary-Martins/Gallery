@@ -15,7 +15,7 @@
 
 <h2 id="sobre">Sobre</h2>
 <p>
-Nesse projeto foi desenvolvido uma landing page responsiva sem nenhuma funcionalidade espefífica, utilizou-se componentes funcionais React apenas para uma melhor organização do projeto. Para visualizar melhor a aplicação, basta acessar o link atrelado ao nome do projeto logo acima, você será redirecionado para o site e verá o projeto em produção.
+Nesse projeto foi desenvolvido uma landing page responsiva sem nenhuma funcionalidade específica, utilizou-se componentes funcionais React apenas para uma melhor organização do projeto. Para visualizar melhor a aplicação, basta acessar o link atrelado ao nome do projeto logo acima, você será redirecionado para o site e verá o projeto em produção.
 <br/ >
 <br/ >
 Meus principais objetivos foram:
